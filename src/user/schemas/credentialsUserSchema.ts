@@ -1,6 +1,6 @@
 import { z } from "zod";
 import bcrypt from "bcrypt";
-import { allowedProviders } from "src/auth/allowedProviders";
+import { allowedProviders } from "../../../src/auth/allowedProviders";
 import { baseUserSchema } from "./baseUserSchema";
 import { passwordSchema } from "./base/passwordSchema";
 import { providerSchema } from "./base/providerSchema";

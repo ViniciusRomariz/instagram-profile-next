@@ -1,6 +1,6 @@
 import type { Prisma, Message } from "@prisma/client";
 export type { Message } from "@prisma/client";
-import { p } from "src/prismaClient";
+import { p } from "../../src/prismaClient";
 import { createMessageSchema } from "./schemas/createMessageSchema";
 
 export function findById(

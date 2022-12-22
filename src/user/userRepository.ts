@@ -1,7 +1,7 @@
 import type { User, Prisma } from "@prisma/client";
 import type { SafeParseReturnType } from "zod";
-import { allowedProviders } from "src/auth/allowedProviders";
-import { p } from "src/prismaClient";
+import { allowedProviders } from "../../src/auth/allowedProviders";
+import { p } from "../../src/prismaClient";
 import {
   credentialsUserSchema,
   CredentialsUserSchema,

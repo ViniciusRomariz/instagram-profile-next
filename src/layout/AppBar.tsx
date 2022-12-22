@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { SearchBar } from "src/cms/components/SearchBar";
-import { InstagramLogo } from "src/components/InstagramLogo";
-import { AppBarItems } from "src/components/AppBarItems";
+import { SearchBar } from "../../src/cms/components/SearchBar";
+import { InstagramLogo } from "../../src/components/InstagramLogo";
+import { AppBarItems } from "../../src/components/AppBarItems";
 
 const appbarHeight = "64px";
 

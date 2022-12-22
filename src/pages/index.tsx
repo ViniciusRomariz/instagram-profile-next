@@ -1,15 +1,15 @@
 import type { GetStaticProps } from "next";
-import { Head } from "src/components/Head";
+import { Head } from "../../src/components/Head";
 import {
   ProfileHeader,
   ProfileHeaderProps,
-} from "src/components/ProfileHeader";
-import { apolloClient } from "src/cms/apolloClient";
-import { Feed, FeedProps } from "src/components/Feed";
-import { decodeUserInfo } from "src/cms/decoders/decodeUserInfo";
-import { queryUserInfo } from "src/cms/queries/queryUserInfo";
-import { getPostPage } from "src/cms/getPostPage";
-import { mapPostsToFeedItems } from "src/cms/mapPostsToFeedItems";
+} from "../../src/components/ProfileHeader";
+import { apolloClient } from "../../src/cms/apolloClient";
+import { Feed, FeedProps } from "../../src/components/Feed";
+import { decodeUserInfo } from "../../src/cms/decoders/decodeUserInfo";
+import { queryUserInfo } from "../../src/cms/queries/queryUserInfo";
+import { getPostPage } from "../../src/cms/getPostPage";
+import { mapPostsToFeedItems } from "../../src/cms/mapPostsToFeedItems";
 import { useSession } from "next-auth/react";
 
 export type HomeProps = {

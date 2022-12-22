@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ContactForm } from "src/components/ContactForm";
+import { ContactForm } from "../../src/components/ContactForm";
 
 export function Footer() {
   return (

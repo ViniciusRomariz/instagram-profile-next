@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Avatar } from "src/components/Avatar";
+import { Avatar } from "../../src/components/Avatar";
 import { GrHomeRounded, GrLogout, GrLogin, GrChat } from "react-icons/gr";
 import { signOut, useSession } from "next-auth/react";
 

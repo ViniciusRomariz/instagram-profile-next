@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { GrHomeRounded, GrLogout, GrLogin, GrChat } from "react-icons/gr";
-import { Avatar } from "src/components/Avatar";
+import { Avatar } from "../../src/components/Avatar";
 import { signOut, useSession } from "next-auth/react";
 
 export function AppBarItems() {

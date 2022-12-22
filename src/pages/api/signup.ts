@@ -1,6 +1,6 @@
-import { endpoint } from "src/endpoint";
-import { allowedProviders } from "src/auth/allowedProviders";
-import * as userRepository from "src/user/userRepository";
+import { endpoint } from "../../../src/endpoint";
+import { allowedProviders } from "../../../src/auth/allowedProviders";
+import * as userRepository from "../../../src/user/userRepository";
 
 export default endpoint({
   async post(req, res) {

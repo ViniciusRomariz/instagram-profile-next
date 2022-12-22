@@ -1,5 +1,5 @@
-import type { User } from "src/user/userRepository";
-import { Avatar } from "src/components/Avatar";
+import type { User } from "../../../src/user/userRepository";
+import { Avatar } from "../../../src/components/Avatar";
 
 type UserItemProps = {
   user: User;

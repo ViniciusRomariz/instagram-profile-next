@@ -1,5 +1,5 @@
-import { endpoint } from "src/endpoint";
-import * as userRepository from "src/user/userRepository";
+import { endpoint } from "../../../../src/endpoint";
+import * as userRepository from "../../../../src/user/userRepository";
 
 export default endpoint({
   async get(req, res) {

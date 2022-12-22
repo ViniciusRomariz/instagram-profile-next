@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { useLazyQuery } from "src/cms/apolloClient";
-import { Avatar, AvatarProps } from "src/components/Avatar";
+import { useLazyQuery } from "../../../src/cms/apolloClient";
+import { Avatar, AvatarProps } from "../../../src/components/Avatar";
 import { queryUserAvatar } from "../queries/queryUserAvatar";
 import { decodeUserInfo } from "../decoders/decodeUserInfo";
 

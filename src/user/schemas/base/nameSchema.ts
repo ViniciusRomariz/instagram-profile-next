@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { userMessages } from "src/user/userMessages";
+import { userMessages } from "../../../../src/user/userMessages";
 
 const nameMinLength = 2;
 const nameMaxLength = 24;

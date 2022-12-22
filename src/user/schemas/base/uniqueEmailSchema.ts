@@ -1,4 +1,4 @@
-import * as userRepository from "src/user/userRepository";
+import * as userRepository from "../../../../src/user/userRepository";
 import { emailSchema } from "./emailSchema";
 
 const messages = {

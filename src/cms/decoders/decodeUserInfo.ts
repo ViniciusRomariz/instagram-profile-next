@@ -1,4 +1,4 @@
-import { getImageUrl } from "src/cms/getImageUrl";
+import { getImageUrl } from "../../../src/cms/getImageUrl";
 
 export type UserInfoData = {
   name: string;

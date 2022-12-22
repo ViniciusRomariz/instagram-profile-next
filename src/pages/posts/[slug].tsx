@@ -1,13 +1,13 @@
 import type { GetStaticPaths, GetStaticProps } from "next";
-import { useLatestPosts } from "src/cms/hooks/useLatestPosts";
-import { apolloClient } from "src/cms/apolloClient";
-import { PostView, PostViewProps } from "src/components/PostView";
-import { Feed } from "src/components/Feed";
-import { Head } from "src/components/Head";
-import { processMarkdown } from "src/cms/processMarkdown";
-import { queryPostsSlugs } from "src/cms/queries/queryPostsSlugs";
-import { decodePosts } from "src/cms/decoders/decodePosts";
-import { queryPostsBySlug } from "src/cms/queries/queryPostsBySlug";
+import { useLatestPosts } from "../../../src/cms/hooks/useLatestPosts";
+import { apolloClient } from "../../../src/cms/apolloClient";
+import { PostView, PostViewProps } from "../../../src/components/PostView";
+import { Feed } from "../../../src/components/Feed";
+import { Head } from "../../../src/components/Head";
+import { processMarkdown } from "../../../src/cms/processMarkdown";
+import { queryPostsSlugs } from "../../../src/cms/queries/queryPostsSlugs";
+import { decodePosts } from "../../../src/cms/decoders/decodePosts";
+import { queryPostsBySlug } from "../../../src/cms/queries/queryPostsBySlug";
 
 export type PostPageProps = {
   title: string;

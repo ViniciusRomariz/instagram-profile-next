@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { userMessages } from "src/user/userMessages";
+import { userMessages } from "../../../../src/user/userMessages";
 
 const passwordMinLength = 8;
 const passwordMaxLength = 64;

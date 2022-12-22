@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { allowedProvidersList } from "src/auth/allowedProviders";
+import { allowedProvidersList } from "../../../../src/auth/allowedProviders";
 
 const messages = {
   invalidProvider:

@@ -1,4 +1,4 @@
-import { gql } from "src/cms/apolloClient";
+import { gql } from "../../../src/cms/apolloClient";
 
 export const queryLatestPosts = gql`
   query {

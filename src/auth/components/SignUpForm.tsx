@@ -5,9 +5,9 @@ import { toast } from "react-toastify";
 import {
   baseUserSchema,
   BaseUserSchema,
-} from "src/user/schemas/baseUserSchema";
-import { passwordSchema } from "src/user/schemas/base/passwordSchema";
-import { LoadingIndicator } from "src/components/LoadingIndicator";
+} from "../../../src/user/schemas/baseUserSchema";
+import { passwordSchema } from "../../../src/user/schemas/base/passwordSchema";
+import { LoadingIndicator } from "../../../src/components/LoadingIndicator";
 import { allowedProviders } from "../allowedProviders";
 import { signIn } from "next-auth/react";
 

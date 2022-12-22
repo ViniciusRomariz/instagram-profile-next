@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { allowedProviders } from "src/auth/allowedProviders";
+import { allowedProviders } from "../../../src/auth/allowedProviders";
 import { baseUserSchema } from "./baseUserSchema";
 import { providerSchema } from "./base/providerSchema";
 import { uniqueEmailSchema } from "./base/uniqueEmailSchema";

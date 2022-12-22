@@ -9,11 +9,11 @@ const initialFormState = {
 
 function isValidName(name: string) {
   if (name.length < 2) {
-    return "O nome precisa ter pelo menos 2 caracteres";
+    return "O nome precisa ter no mínimo 2 caracteres";
   }
 
   if (name.length > 32) {
-    return "O nome precisa ter até 32 caracteres";
+    return "O nome precisa ter no máximo 32 caracteres";
   }
 
   return null;
@@ -21,7 +21,7 @@ function isValidName(name: string) {
 
 function isValidEmail(email: string) {
   if (!email.match(/^\S+@\S+\.\S+$/)) {
-    return "Este email é invalido";
+    return "E-mail invalido";
   }
 
   return null;
@@ -33,7 +33,7 @@ function isValidPhoneNumber(phoneNumber: string) {
   }
 
   if (!phoneNumber.match(/^\([1-9]{2}\) (?:[2-8]|9[1-9])[0-9]{3}\-[0-9]{4}$/)) {
-    return "O número de telefone é invalido";
+    return "Número de telefone inválido";
   }
 
   return null;
@@ -41,11 +41,11 @@ function isValidPhoneNumber(phoneNumber: string) {
 
 function isValidMessage(message: string) {
   if (message.length < 12) {
-    return "A mensagem precisa ter pelo menos 12 caracteres";
+    return "A mensagem precisa ter no mínimo 12 caracteres";
   }
 
   if (message.length > 256) {
-    return "A mensagem precisa ter até 256 caracteres";
+    return "A mensagem precisa ter no máximo 256 caracteres";
   }
 
   return null;

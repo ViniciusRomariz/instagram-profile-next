@@ -1,6 +1,6 @@
 import type { GetServerSideProps } from "next";
-import { getServerSession } from "src/auth/getServerSession";
-import * as userRepository from "src/user/userRepository";
+import { getServerSession } from "../../../src/auth/getServerSession";
+import * as userRepository from "../../../src/user/userRepository";
 
 type ProfilePageProps = {
   user: userRepository.User;

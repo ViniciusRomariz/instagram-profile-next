@@ -1,7 +1,7 @@
-import { endpoint } from "src/endpoint";
-import { getServerSession } from "src/auth/getServerSession";
-import { receiverIdSchema } from "src/message/schemas/receiverIdSchema";
-import * as messageRepository from "src/message/messageRepository";
+import { endpoint } from "../../../../../../src/endpoint";
+import { getServerSession } from "../../../../../../src/auth/getServerSession";
+import { receiverIdSchema } from "../../../../../../src/message/schemas/receiverIdSchema";
+import * as messageRepository from "../../../../../../src/message/messageRepository";
 
 export default endpoint({
   async post(req, res) {

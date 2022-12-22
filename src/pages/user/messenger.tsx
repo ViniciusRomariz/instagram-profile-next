@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import useAxios from "axios-hooks";
 import type { GetServerSideProps } from "next";
-import { LoadingIndicator } from "src/components/LoadingIndicator";
-import { getServerSession } from "src/auth/getServerSession";
-import { UserItem } from "src/user/components/UserItem";
-import * as userRepository from "src/user/userRepository";
-import * as messageRepository from "src/message/messageRepository";
+import { LoadingIndicator } from "../../../src/components/LoadingIndicator";
+import { getServerSession } from "../../../src/auth/getServerSession";
+import { UserItem } from "../../../src/user/components/UserItem";
+import * as userRepository from "../../../src/user/userRepository";
+import * as messageRepository from "../../../src/message/messageRepository";
 
 type MessengerPageProps = {
   contacts: userRepository.User[];
