@@ -23,7 +23,7 @@ export function ProfileHeader({
     <div className="profile-header">
       <div className="row">
         <div className="avatar item">
-          <Avatar src="vicrom.jpg" size={128} alt={`Foto de Vinicius`} />
+          <Avatar src={"../src/images/vicrom.jpg"} size={128} alt={`Foto de Vinicius`} />
         </div>
       </div>
       <div className="row">
