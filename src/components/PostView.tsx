@@ -23,8 +23,8 @@ export function PostView({
           <Image
             priority
             src={image}
-            width="800"
-            height="800"
+            width="600"
+            height="600"
             alt=""
             style={{
               objectFit: "cover",
