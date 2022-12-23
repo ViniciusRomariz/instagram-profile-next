@@ -23,25 +23,23 @@ export function ProfileHeader({
     <div className="profile-header">
       <div className="row">
         <div className="avatar item">
-          <Avatar src={avatar} size={128} alt={`Foto de Vinicius`} />
+          <Avatar src="vicrom.jpg" size={128} alt={`Foto de Vinicius`} />
           //${username}
         </div>
       </div>
       <div className="row">
         <h2 className="username item">
           <span>Vinicius Romariz</span>
-          //{username}
         </h2>
         <div className="publish-container item">
           <span className="publish-count">78</span>{" "}
-          //{publishCount}
           <span>publicações</span>
         </div>
         <div className="name item">
           <span>{name}</span>
         </div>
         <div className="role item">
-          <span>{role}</span>
+          <span>Aluno</span>
         </div>
         <div className="bio item">
           <p>{bio}</p>
