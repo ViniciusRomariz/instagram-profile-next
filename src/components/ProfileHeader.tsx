@@ -23,7 +23,7 @@ export function ProfileHeader({
     <div className="profile-header">
       <div className="row">
         <div className="avatar item">
-          <Avatar src={"../src/images/vicrom.jpg"} size={128} alt={`Foto de Vinicius`} />
+          <Avatar src={"../src/images/vicrom.jpg"} size={120} alt={`Foto de Vinicius`} />
         </div>
       </div>
       <div className="row">
@@ -81,12 +81,12 @@ export function ProfileHeader({
 
         .avatar {
           display: flex;
-          justify-content: center;
+          justify-content: start;
         }
 
         @media (max-width: 960px) {
           .profile-header {
-            flex-direction: column;
+            flex-direction: column-reverse;
           }
         }
 
@@ -103,7 +103,7 @@ export function ProfileHeader({
           }
 
           .avatar {
-            width: 256px;
+            width: 128px;
           }
         }
       `}</style>
